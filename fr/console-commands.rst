@@ -3,8 +3,8 @@ Console Commands
 
 .. php:namespace:: Cake\Console
 
-In addition to a web framework, CakePHP also provides a console framework for
-creating command line tools & applications. Console applications are ideal for
+En plus d'un framework web, CakePHP offre aussi un framework console pour créer
+des outils et applications en ligne de commande. Console applications are ideal for
 handling a variety of background & maintenance tasks that leverage your existing
 application configuratino, models, plugins and domain logic.
 
@@ -19,9 +19,9 @@ The CakePHP Console uses a dispatcher-type system to load a commands, parse
 their arguments and invoke the correct command. While the examples below use
 bash the CakePHP console is compatible with any \*nix shell and windows.
 
-A CakePHP application contains **src/Command**, **src/Shell** and
-**src/Shell/Task** directories that contain its shells and tasks. It also
-comes with an executable in the **bin** directory:
+Une application CakePHP contient les répertoires **src/Command**, **src/Shell** 
+et **src/Shell/Task** contenant eux-mêmes les shells et les tâches. Elle est aussi
+livrée avec un exécutable dans le répertoire **bin** :
 
 .. code-block:: bash
 
@@ -30,10 +30,10 @@ comes with an executable in the **bin** directory:
 
 .. note::
 
-    For Windows, the command needs to be ``bin\cake`` (note the backslash).
+    Sur Windows, la commande doit être ``bin\cake`` (backslash à la place du slash).
 
-Running the Console with no arguments will list out available commands. You
-could then run the any of the listed commands by using its name:
+Lancer la console sans arguments liste toutes les commandes disponibles. Vous
+pouvez ensuite lancer une de ces commandes en utilisant son nom :
 
 .. code-block:: bash
 
